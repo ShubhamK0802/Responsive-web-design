@@ -1,0 +1,71 @@
+/* Global Styles */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styles */
+#header {
+    background-color: #333;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+
+#header-img {
+    width: 100px; /* Adjust size as needed */
+}
+
+#nav-bar {
+    margin-top: 20px;
+}
+
+.nav-link {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 10px;
+}
+
+/* Video Section Styles */
+#video-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#video {
+    width: 80%; /* Adjust size as needed */
+}
+
+/* Form Section Styles */
+#form-section {
+    margin-top: 50px;
+    text-align: center;
+}
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+label {
+    margin-bottom: 10px;
+}
+
+input[type="email"] {
+    width: 300px; /* Adjust size as needed */
+    padding: 10px;
+    margin-bottom: 10px;
+}
+
+input[type="submit"] {
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}

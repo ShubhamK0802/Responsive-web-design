@@ -1,0 +1,43 @@
+** start of undefined **
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <title>surey-form</title>
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This survey form is created to check the quality of mess food.</p>
+    <form id="survey-form">
+      <label id="name-label">Name: <input type="text" id="name" placeholder="write your name" required /></label>
+      <label id="email-label">Email: <input type="email" id="email" placeholder="@email.com" required /></label>
+      <label id="number-label">Number: <input type="number"id="number" placeholder="+91" min="10" max="10"></label>
+      <input type="radio" name="deit" value="healthy" /> Veg 
+      <input type="radio" name="deit" value="heathly"/> Non-Veg
+      <label>How was test of the food?
+        <select id="dropdown">
+          <option>select</option>
+          <option> poor</option>
+          <option>good</option>
+          <option>better</option>
+         </select>
+      </label>
+    Morning<input type="checkbox" value="breakfast">
+    Afternoon<input type="checkbox" value="lunch">
+    Evening<input type="checkbox" value="dinner">
+    <textarea placeholder="suggetions..." rows="3" cols="15"></textarea> 
+    <input type="submit" id="submit">
+  </form>
+  </body>
+</html>
+
+** end of undefined **
+
+** start of undefined **
+
+
+
+** end of undefined **
+

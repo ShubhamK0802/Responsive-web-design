@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>surey-form</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <h1 id="title">Survey Form</h1>
+    <p id="description">This survey form is created to check the quality of mess food.</p>
+    <form id="survey-form">
+        <label id="name-label">Name: <input type="text" id="name" placeholder="write your name" required /></label><br>
+        <label id="email-label">Email: <input type="email" id="email" placeholder="example@email.com" required /></label><br>
+        <label id="number-label">Number: <input type="number" id="number" placeholder="0" min="0" max="100"></label><br>
+        <input type="radio" name="deit" value="healthy" /> Veg<br>
+        <input type="radio" name="deit" value="heathly" /> Non-Veg<br>
+        <label>How was test of the food?
+            <select id="dropdown">
+                <option>select</option>
+                <option> poor</option>
+                <option>good</option>
+                <option>better</option>
+            </select>
+        </label><br>
+        <input type="checkbox" value="breakfast">Morning<br>
+        <input type="checkbox" value="lunch">Afternoon<br>
+       <input type="checkbox" value="dinner"> Evening<br>
+        <p>Feedback</p>
+        <textarea placeholder="suggetions..." rows="3" cols="15"></textarea><br>
+        <input type="submit" id="submit">
+    </form>
+</body>
+
+</html>
